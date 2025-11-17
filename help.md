@@ -1,171 +1,172 @@
-# 🧭 **XportOne – Documentação Oficial (F1 Help)**
+# 🧭 **XportOne – Official Documentation (F1 Help)**
 
-Bem-vindo ao centro oficial de ajuda do **XportOne**, o plugin desenvolvido para otimizar e automatizar a exportação de pranchas do Revit para **PDF** e **DWG** de forma rápida, consistente e sem erros.
+Welcome to the official help center for **XportOne**, the plugin designed to optimize and automate sheet exports from Revit to **PDF** and **DWG** quickly, consistently, and without errors.
 
-Esta documentação atende ao requisito de **Contextual Help (F1)** da Autodesk App Store.
-
----
-
-# 📌 **1. Sobre o XportOne**
-
-O **XportOne** é um complemento para Autodesk Revit que simplifica o fluxo de exportação de folhas, permitindo:
-
-- Exportar diversas pranchas simultaneamente  
-- Gerar arquivos **PDF** e **DWG** padronizados  
-- Definir prefixos, numeração e caminhos de saída  
-- Reduzir tempo de trabalho manual  
-- Evitar erros comuns de configuração de exportação  
-
-Ele foi projetado para equipes de engenharia e arquitetura que precisam manter produtividade e consistência nos entregáveis.
+This documentation fulfills Autodesk App Store’s **Contextual Help (F1)** requirement.
 
 ---
 
-# 🚀 **2. Como usar o XportOne**
+# 📌 **1. About XportOne**
 
-### **Passo 1 – Abrir o painel do XportOne**
-No Revit, acesse:
+**XportOne** is an Autodesk Revit add-in that simplifies the sheet export workflow by enabling:
+
+- Batch exporting of multiple sheets  
+- Automatic generation of standardized **PDF** and **DWG** files  
+- Configurable naming, prefixes, and output paths  
+- Reduced manual work  
+- Elimination of common export mistakes  
+
+It is designed for engineering and architecture teams who need speed, consistency, and reliability in deliverables.
+
+---
+
+# 🚀 **2. How to Use XportOne**
+
+### **Step 1 – Open the XportOne panel**
+In Revit, go to:
 
 > **Add-Ins → Export → Export PDF + DWG**
 
-Clique no botão **Export PDF + DWG**.
+Click the **Export PDF + DWG** button.
 
 ---
 
-### **Passo 2 – Selecionar as pranchas**
+### **Step 2 – Select the sheets**
 
-A interface do XportOne exibirá:
+The XportOne interface will show:
 
-- Lista de pranchas do projeto  
-- Caixa de seleção múltipla  
-- Filtros (disciplinas, prefixos, padrões de nome)
+- A list of sheets in the project  
+- Multi-selection checkboxes  
+- Filters (discipline, naming patterns, prefixes)  
 
-Selecione as folhas desejadas.
-
----
-
-### **Passo 3 – Definir opções de exportação**
-
-Você pode configurar:
-
-- Pasta de destino  
-- Nome dos arquivos (automático ou personalizado)  
-- Exportar **PDF**, **DWG**, ou ambos  
-- Criar subpastas automaticamente  
-- Aplicar prefixos e sufixos  
+Select the sheets you want to export.
 
 ---
 
-### **Passo 4 – Exportar**
+### **Step 3 – Configure export options**
 
-Clique em **Exportar**.
+You can configure:
 
-O XportOne irá gerar os arquivos conforme suas configurações, exibindo mensagens claras sobre:
-
-- Arquivos criados  
-- Possíveis erros  
-- Caminhos de saída  
-
----
-
-# ⚙️ **3. Requisitos de Sistema**
-
-- **Autodesk Revit 2025** (ou versão compatível indicada na App Store)  
-- .NET 8 Runtime incluído no Revit  
-- Permissões de escrita para a pasta de saída  
+- Output folder  
+- File naming (automatic or custom)  
+- Export **PDF**, **DWG**, or both  
+- Automatic folder creation  
+- Prefixes and suffixes  
 
 ---
 
-# 📂 **4. Instalação**
+### **Step 4 – Export**
 
-O plugin é instalado através de:
+Click **Export**.
 
-### ✔ Autodesk App Store (pacote oficial)  
-OU  
-### ✔ Instalação manual
+XportOne will generate the files according to your settings, providing clear notifications about:
 
-Colocando o arquivo **XportOne.addin** e a pasta `.bundle` em:
+- Generated files  
+- Possible errors  
+- Output locations  
+
+---
+
+# ⚙️ **3. System Requirements**
+
+- **Autodesk Revit 2025** (or compatible version listed in the App Store)  
+- .NET 8 runtime included in Revit  
+- Write permissions to the output folder  
+
+---
+
+# 📂 **4. Installation**
+
+The plugin is installed through:
+
+### ✔ Autodesk App Store (official package)  
+OR  
+### ✔ Manual installation
+
+Place **XportOne.addin** and the `.bundle` folder into:
 
 C:\ProgramData\Autodesk\Revit\Addins\2025\
 
-Após isso, reinicie o Revit.
+
+Restart Revit afterward.
 
 ---
 
-# 🧩 **5. Remoção / Desinstalação**
+# 🧩 **5. Uninstallation**
 
-Para remover:
+To remove XportOne:
 
-1. Feche o Revit.  
+1. Close Revit.  
 2. Delete:
-   - `C:\ProgramData\Autodesk\Revit\Addins\2025\XportOne.addin`
-   - `C:\ProgramData\Autodesk\Revit\Addins\2025\XportOne.bundle\`
-3. Abra o Revit novamente.
+   - `C:\ProgramData\Autodesk\Revit\Addins\2025\XportOne.addin`  
+   - `C:\ProgramData\Autodesk\Revit\Addins\2025\XportOne.bundle\`  
+3. Reopen Revit.
 
 ---
 
-# ❗ **6. Solução de Problemas**
+# ❗ **6. Troubleshooting**
 
-### **O botão do XportOne não aparece**
-- Verifique se os arquivos estão no diretório de add-ins.  
-- Garanta que o instalador instalou a versão correta (2025).  
-- Execute o Revit como administrador.  
-
----
-
-### **O exportador não abre**
-- Pode haver bloqueio do Windows:  
-  → Clique direito → *Propriedades* → marque “Desbloquear”.  
-- Antivírus pode estar bloqueando `.dll`: adicione exceção.  
+### **The XportOne button does not appear**
+- Make sure the add-in files are in the Addins folder.  
+- Confirm the correct version (2025) is installed.  
+- Try running Revit as administrator.  
 
 ---
 
-### **Algumas pranchas não aparecem na lista**
-- Verifique se são pranchas válidas (ViewSheet).  
-- Folhas dependentes ou templates não são listadas.  
+### **The exporter window does not open**
+- Windows may have blocked the DLL:  
+  → Right-click → *Properties* → enable **Unblock**.  
+- Antivirus software may be blocking the DLL.  
 
 ---
 
-### **DWG sai com configuração incorreta**
-- Ajuste o template DWG no Revit antes de exportar.  
-- As configurações seguem o template ativo do Revit.  
+### **Some sheets do not appear in the list**
+- Verify they are valid ViewSheets.  
+- Dependent or template sheets are not listed.  
 
 ---
 
-### **PDF não é gerado**
-- Verifique permissões da pasta de destino.  
-- Feche arquivos PDF que já estejam abertos.  
+### **DWG export configuration looks incorrect**
+- Adjust your DWG export template in Revit.  
+- XportOne uses Revit’s active DWG export settings.  
 
 ---
 
-# 🔒 **7. Privacidade e Dados**
+### **PDF files are not generated**
+- Check write permissions for the output folder.  
+- Close any PDF files that are already opened.  
 
-O XportOne **não coleta, armazena ou transmite** nenhum dado do usuário.
+---
 
-Você pode consultar a política completa em:
+# 🔒 **7. Privacy and Data Handling**
+
+XportOne **does not collect, store, or transmit** any user data.
+
+You can read the full privacy policy here:
 
 👉 **https://xportone.github.io/**
 
 ---
 
-# 📘 **8. Licenciamento**
+# 📘 **8. Licensing**
 
-O XportOne é distribuído através da Autodesk App Store sob a licença de uso da plataforma.
+XportOne is distributed via the Autodesk App Store under the platform’s licensing terms.
 
 ---
 
-# 🆘 **9. Suporte Técnico**
+# 🆘 **9. Technical Support**
 
-Se você encontrou algum problema, precisa de ajuda ou quer sugerir melhorias:
+If you encounter issues, need help, or have feature suggestions:
 
-### 📧 **E-mail de suporte**
+### 📧 **Support Email**  
 **xportone.plugin@gmail.com**
 
-### 🛠 Tempo de resposta típico
-Dentro de **24 a 48 horas úteis**.
+### 🛠 Expected response time  
+**24–48 business hours**
 
 ---
 
-# 🎉 **Obrigado por usar o XportOne!**
+# 🎉 **Thank you for using XportOne!**
 
-Este plugin foi desenvolvido para tornar a exportação do Revit mais rápida, simples e confiável.  
-Agradecemos por utilizar nossa solução.
+This plugin was built to make Revit exports faster, easier, and more reliable.  
+We appreciate your support and feedback!
